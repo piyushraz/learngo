@@ -35,6 +35,6 @@ func main() { // block scope starts
 
 	// package-level declareMeAgain isn't effected
 	// from the change inside the nested func
-	fmt.Println("inside main:", declareMeAgain)
+	fmt.Println("inside main again:", declareMeAgain)
 
 } // block scope ends
